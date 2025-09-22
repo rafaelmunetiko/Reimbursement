@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="18c04b0b83c832108bbdb2b6feaad3e0" label="Category" max_length="40" name="x_752538_reimbur_0_category" type="collection">
+        <element display="true" label="Name" max_length="250" name="name" type="string"/>
+    </element>
+</database>

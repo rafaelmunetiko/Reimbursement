@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Reimbursement Request">19b16b03838c32108bbdb2b6feaad318</sc_cat_item>
+        <sc_category display_value="Reimbursement">41e06703838c32108bbdb2b6feaad302</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 17:26:44</sys_created_on>
+        <sys_id>14c52787838c32108bbdb2b6feaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reimbursement.Reimbursement Request</sys_name>
+        <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
+        <sys_update_name>sc_cat_item_category_14c52787838c32108bbdb2b6feaad3b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 17:26:44</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

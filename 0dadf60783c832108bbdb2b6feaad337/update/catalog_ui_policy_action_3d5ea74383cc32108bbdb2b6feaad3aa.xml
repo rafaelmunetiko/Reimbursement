@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Reimbursement Request">19b16b03838c32108bbdb2b6feaad318</catalog_item>
+        <catalog_variable>IO:251c678f838c32108bbdb2b6feaad312</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 18:04:14</sys_created_on>
+        <sys_id>3d5ea74383cc32108bbdb2b6feaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>receipt</sys_name>
+        <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_3d5ea74383cc32108bbdb2b6feaad3aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 18:04:14</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Mandatory fields">ecfde70383cc32108bbdb2b6feaad3b1</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>receipt</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=3d5ea74383cc32108bbdb2b6feaad3aa"/>
+</record_update>

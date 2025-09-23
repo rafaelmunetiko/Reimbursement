@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Allow write for records in x_752538_reimbur_0_reimbursement, if the ACL script returns true.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_752538_reimbur_0_reimbursement</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[var answer = false;
+
+if (current.state != 'paid') {
+    answer = true;
+}
+
+]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 19:53:32</sys_created_on>
+        <sys_id>afefcd6b8348b2108bbdb2b6feaad30f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_752538_reimbur_0_reimbursement</sys_name>
+        <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
+        <sys_update_name>sys_security_acl_afefcd6b8348b2108bbdb2b6feaad30f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 20:03:20</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="DELETE">
+        <id>afefcd6b8348b2108bbdb2b6feaad30f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 19:58:55</sys_created_on>
+        <sys_id>9722dd6b8348b2108bbdb2b6feaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 19:58:55</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>sys_security_acl_afefcd6b8348b2108bbdb2b6feaad30f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Allow write for records in x_752538_reimbur_0_reimbursement, if the ACL script returns true.&lt;/description&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_752538_reimbur_0_reimbursement&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[var answer = false;
+
+if (current.state != 'paid') {
+    answer = true;
+}
+
+]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-23 19:53:32&lt;/sys_created_on&gt;&lt;sys_id&gt;afefcd6b8348b2108bbdb2b6feaad30f&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_752538_reimbur_0_reimbursement&lt;/sys_name&gt;&lt;sys_package display_value="Reimbursement" source="x_752538_reimbur_0"&gt;0dadf60783c832108bbdb2b6feaad337&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Reimbursement"&gt;0dadf60783c832108bbdb2b6feaad337&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_afefcd6b8348b2108bbdb2b6feaad30f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-23 20:03:20&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;afefcd6b8348b2108bbdb2b6feaad30f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-23 19:58:55&lt;/sys_created_on&gt;&lt;sys_id&gt;9722dd6b8348b2108bbdb2b6feaad3c3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-23 19:58:55&lt;/sys_updated_on&gt;&lt;table&gt;sys_security_acl&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>138820938</payload_hash>
+        <record_name>x_752538_reimbur_0_reimbursement</record_name>
+        <reverted_from/>
+        <source>92ed0c5b834072108bbdb2b6feaad38d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 20:03:20</sys_created_on>
+        <sys_id>1c33dd6f8348b2108bbdb2b6feaad32c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199782c6a860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 20:03:20</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>0033dd6fcc48b2107fcd21bfd59bdd2c</update_guid>
+        <update_guid_history>0033dd6fcc48b2107fcd21bfd59bdd2c:138820938,c3921d2ffe48b210b7ec168e46ee6404:748008448,532299ebf648b2108cc538bc9d3bb1de:654225284,70f091eb2748b210fcdb9091d049951b:370479856</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 20:05:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>289baa6783d24da8ad738822def35840</sys_id>
+        <sys_metadata>afefcd6b8348b2108bbdb2b6feaad30f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_752538_reimbur_0_reimbursement</sys_name>
+        <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
+        <sys_parent display_value="x_752538_reimbur_0_reimbursement">066f3a8783c832108bbdb2b6feaad384</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
+        <sys_scope_delete display_value="">53b99bb0db014330bf0a4261a8ae9e90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_afefcd6b8348b2108bbdb2b6feaad30f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_afefcd6b8348b2108bbdb2b6feaad30f">1c33dd6f8348b2108bbdb2b6feaad32c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 20:05:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

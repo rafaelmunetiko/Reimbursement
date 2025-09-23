@@ -36,14 +36,15 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello ${opened_by.first_name},</p>
-<p>We regret to inform you that your reimbursement request <strong>#${number}</strong> has been <strong>${state}</strong>.</p>
+        <message_html><![CDATA[<p>Hello ${opened_by.name},</p>
+<p>We regret to inform you that your reimbursement request <strong>${number}</strong> has been <strong>${state}</strong>.</p>
 <p>Details of your request:</p>
 <ul>
 <li><strong>Request Number:</strong> ${number}</li>
 <li><strong>Status:</strong> ${state}</li>
 <li><strong>Amount:</strong> ${amount}</li>
 <li><strong>Category:</strong> ${category}</li>
+<li><strong>Description:</strong> ${description}</li>
 <li><strong>Reproval Reason:</strong> ${reproval_reason}</li>
 </ul>
 <p>Please review the request and contact the finance team if you have any questions or need further support .</p>
@@ -61,7 +62,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Your reimbursement request #${number} has been ${state}</subject>
+        <subject>Your reimbursement request ${number} has been ${state}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -69,7 +70,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8579d9d383c472108bbdb2b6feaad323</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Reimbursement Reproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
@@ -77,7 +78,7 @@
         <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
         <sys_update_name>sysevent_email_action_8579d9d383c472108bbdb2b6feaad323</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 01:56:20</sys_updated_on>
+        <sys_updated_on>2025-09-23 13:28:31</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

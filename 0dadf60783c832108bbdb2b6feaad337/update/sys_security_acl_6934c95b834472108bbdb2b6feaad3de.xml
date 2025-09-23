@@ -6,10 +6,10 @@
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description>Allow read for records in x_752538_reimbur_0_reimbursement, for users with role x_752538_reimbur_0.reimbursement_resolver, and if the ACL script returns true.</description>
+        <description>Allow write for records in x_752538_reimbur_0_reimbursement, for users with role x_752538_reimbur_0.reimbursement_resolver, and if the ACL script returns true.</description>
         <local_or_existing>Local</local_or_existing>
         <name>x_752538_reimbur_0_reimbursement</name>
-        <operation display_value="read">read</operation>
+        <operation display_value="write">write</operation>
         <script><![CDATA[(function() {
 
     var userGroups = gs.getUser().getMyGroups();
@@ -25,26 +25,26 @@
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-22 14:39:15</sys_created_on>
-        <sys_id>076f3a8783c832108bbdb2b6feaad39d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2025-09-23 00:19:25</sys_created_on>
+        <sys_id>6934c95b834472108bbdb2b6feaad3de</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_752538_reimbur_0_reimbursement</sys_name>
         <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
-        <sys_update_name>sys_security_acl_076f3a8783c832108bbdb2b6feaad39d</sys_update_name>
+        <sys_update_name>sys_security_acl_6934c95b834472108bbdb2b6feaad3de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 01:22:44</sys_updated_on>
+        <sys_updated_on>2025-09-23 01:28:36</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>076f3a8783c832108bbdb2b6feaad39d</id>
+        <id>6934c95b834472108bbdb2b6feaad3de</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-23 00:17:06</sys_created_on>
-        <sys_id>eba34997834472108bbdb2b6feaad36b</sys_id>
+        <sys_created_on>2025-09-23 00:42:35</sys_created_on>
+        <sys_id>cd89cd13838472108bbdb2b6feaad3d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 00:17:06</sys_updated_on>
+        <sys_updated_on>2025-09-23 00:42:35</sys_updated_on>
         <table>sys_security_acl</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>

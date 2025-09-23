@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>reimbursement.meal.resolver</sys_created_by>
+        <sys_created_on>2025-09-23 00:50:59</sys_created_on>
+        <sys_id>c07b0dd3838472108bbdb2b6feaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideURI.toString</sys_name>
+        <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
+        <sys_update_name>sys_scope_privilege_c07b0dd3838472108bbdb2b6feaad3a0</sys_update_name>
+        <sys_updated_by>reimbursement.meal.resolver</sys_updated_by>
+        <sys_updated_on>2025-09-23 00:50:59</sys_updated_on>
+        <target_name>GlideURI.toString</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>sys_scope_privilege_c07b0dd3838472108bbdb2b6feaad3a0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>reimbursement.meal.resolver</sys_created_by><sys_created_on>2025-09-23 00:50:59</sys_created_on><sys_id>c07b0dd3838472108bbdb2b6feaad3a0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideURI.toString</sys_name><sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package><sys_policy/><sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope><sys_update_name>sys_scope_privilege_c07b0dd3838472108bbdb2b6feaad3a0</sys_update_name><sys_updated_by>reimbursement.meal.resolver</sys_updated_by><sys_updated_on>2025-09-23 00:50:59</sys_updated_on><target_name>GlideURI.toString</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>1079008673</payload_hash>
+        <record_name>GlideURI.toString</record_name>
+        <reverted_from/>
+        <source>92ed0c5b834072108bbdb2b6feaad38d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>reimbursement.meal.resolver</sys_created_by>
+        <sys_created_on>2025-09-23 00:50:59</sys_created_on>
+        <sys_id>0c7b0dd3838472108bbdb2b6feaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199740d67d40000001</sys_recorded_at>
+        <sys_updated_by>reimbursement.meal.resolver</sys_updated_by>
+        <sys_updated_on>2025-09-23 00:50:59</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>007b0dd3e684721099698759abed27a1</update_guid>
+        <update_guid_history>007b0dd3e684721099698759abed27a1:1079008673</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>reimbursement.meal.resolver</sys_created_by>
+        <sys_created_on>2025-09-23 00:59:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>9d26e1dc476e442a97db90faf8f26ce4</sys_id>
+        <sys_metadata>c07b0dd3838472108bbdb2b6feaad3a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideURI.toString</sys_name>
+        <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
+        <sys_scope_delete display_value="">53b99bb0db014330bf0a4261a8ae9e90</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_c07b0dd3838472108bbdb2b6feaad3a0</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_c07b0dd3838472108bbdb2b6feaad3a0">0c7b0dd3838472108bbdb2b6feaad3a1</sys_update_version>
+        <sys_updated_by>reimbursement.meal.resolver</sys_updated_by>
+        <sys_updated_on>2025-09-23 00:59:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

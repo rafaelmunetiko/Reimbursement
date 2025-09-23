@@ -4,13 +4,41 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 15:46:15</sys_created_on>
-            <sys_id>2cce8f8b830c32108bbdb2b6feaad31c</sys_id>
+            <sys_created_on>2025-09-22 20:33:15</sys_created_on>
+            <sys_id>a870d05f834072108bbdb2b6feaad364</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_752538_reimbur_0_category" sys_domain="global" view="Default view">eb99c707830c32108bbdb2b6feaad3a0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 15:46:15</sys_updated_on>
+            <sys_updated_on>2025-09-22 20:33:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-22 20:33:15</sys_created_on>
+            <sys_id>a070d05f834072108bbdb2b6feaad365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_752538_reimbur_0_category" sys_domain="global" view="Default view">eb99c707830c32108bbdb2b6feaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-22 20:33:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>responsible_group</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-22 20:33:15</sys_created_on>
+            <sys_id>e070145f834072108bbdb2b6feaad320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_752538_reimbur_0_category" sys_domain="global" view="Default view">eb99c707830c32108bbdb2b6feaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-22 20:33:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

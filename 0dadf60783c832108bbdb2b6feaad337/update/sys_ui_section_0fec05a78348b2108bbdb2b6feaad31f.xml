@@ -4,29 +4,15 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:35:58</sys_created_on>
-            <sys_id>1fec05a78348b2108bbdb2b6feaad35e</sys_id>
+            <sys_created_on>2025-09-24 19:33:29</sys_created_on>
+            <sys_id>e8f5d633838036108bbdb2b6feaad3b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">b85c89278348b2108bbdb2b6feaad363</sys_ui_formatter>
             <sys_ui_section caption="New section 1" display_value="New section 1" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:35:58</sys_updated_on>
+            <sys_updated_on>2025-09-24 19:33:29</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>dolar_amount</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-24 18:11:33</sys_created_on>
-            <sys_id>2c3342f7830036108bbdb2b6feaad39b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-24 18:11:33</sys_updated_on>
-            <sys_user/>
-            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>New section 1</caption>

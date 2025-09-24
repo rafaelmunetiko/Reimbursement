@@ -11,14 +11,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-24 14:19:00</sys_created_on>
         <sys_id>8efd8df3830cf2108bbdb2b6feaad397</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_752538_reimbur_0.integration_base_currency</sys_name>
         <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
         <sys_update_name>sys_properties_8efd8df3830cf2108bbdb2b6feaad397</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-24 14:19:00</sys_updated_on>
+        <sys_updated_on>2025-09-24 19:32:18</sys_updated_on>
         <type>string</type>
         <value>BRL</value>
         <write_roles/>

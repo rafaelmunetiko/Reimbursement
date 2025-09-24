@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">bcc2f4f38388f2108bbdb2b6feaad32f</canvas>
+        <component display_value="Image">15fe506403f8a98575b6df59008ea8f1</component>
+        <component_props>{"src":"upload_unnamed.png","sources":"[]","fit":"fill","position":"center center","width":"","height":110,"alt":"","href":"https://dev282117.service-now.com/now/nav/ui/classic/params/target/x_752538_reimbur_0_reimbursement_list.do%3Fsysparm_userpref_module%3D534e449b834072108bbdb2b6feaad36e%26sysparm_view%3DReimbursement","configAria":"{\"link\":{}}","id":"href","value":"https://dev282117.service-now.com/now/nav/ui/classic/params/target/x_752538_reimbur_0_reimbursement_list.do%3Fsysparm_userpref_module%3D534e449b834072108bbdb2b6feaad36e%26sysparm_view%3DReimbursement","propLabel":"Link","landmark":false,"noDebounce":true}</component_props>
+        <h>6</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 20:33:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>20c36a7383c036108bbdb2b6feaad313</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
+        <sys_update_name>par_dashboard_widget_20c36a7383c036108bbdb2b6feaad313</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 20:40:27</sys_updated_on>
+        <visualization/>
+        <w>4</w>
+        <widget_props/>
+        <x>3</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

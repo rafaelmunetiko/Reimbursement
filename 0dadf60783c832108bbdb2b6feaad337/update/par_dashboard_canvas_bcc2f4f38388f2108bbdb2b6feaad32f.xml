@@ -2,14 +2,14 @@
     <par_dashboard_canvas action="INSERT_OR_UPDATE">
         <dashboard display_value="Reimbursement">e8c270b38388f2108bbdb2b6feaad329</dashboard>
         <dashboard_tab/>
-        <layout>[]</layout>
+        <layout>[{"sys_id":"20c3627f838036108bbdb2b6feaad32e","x":15,"y":10,"w":27,"h":4,"component_id":"2d56f06d55f46bbd4e79b5e624beb940","component_props":"{\"html\":\"&lt;p&gt;This dashboard provides an overview of performance metrics, pending items, and requester rankings.&lt;/p&gt;\",\"id\":\"html\",\"value\":\"&lt;p&gt;This dashboard provides an overview of performance metrics, pending items, and requester rankings.&lt;/p&gt;\",\"noDebounce\":true,\"propLabel\":\"HTML\"}","can_edit":true},{"sys_id":"20c36a7383c036108bbdb2b6feaad313","x":3,"y":0,"w":4,"h":6,"component_id":"15fe506403f8a98575b6df59008ea8f1","component_props":"{\"src\":\"upload_unnamed.png\",\"sources\":\"[]\",\"fit\":\"fill\",\"position\":\"center center\",\"width\":\"\",\"height\":110,\"alt\":\"\",\"href\":\"https://dev282117.service-now.com/now/nav/ui/classic/params/target/x_752538_reimbur_0_reimbursement_list.do%3Fsysparm_userpref_module%3D534e449b834072108bbdb2b6feaad36e%26sysparm_view%3DReimbursement\",\"configAria\":\"{\\\"link\\\":{}}\",\"id\":\"href\",\"value\":\"https://dev282117.service-now.com/now/nav/ui/classic/params/target/x_752538_reimbur_0_reimbursement_list.do%3Fsysparm_userpref_module%3D534e449b834072108bbdb2b6feaad36e%26sysparm_view%3DReimbursement\",\"propLabel\":\"Link\",\"landmark\":false,\"noDebounce\":true}","can_edit":true}]</layout>
         <sys_class_name>par_dashboard_canvas</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-24 12:20:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bcc2f4f38388f2108bbdb2b6feaad32f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
@@ -17,6 +17,6 @@
         <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
         <sys_update_name>par_dashboard_canvas_bcc2f4f38388f2108bbdb2b6feaad32f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-24 12:20:08</sys_updated_on>
+        <sys_updated_on>2025-09-24 20:43:20</sys_updated_on>
     </par_dashboard_canvas>
 </record_update>

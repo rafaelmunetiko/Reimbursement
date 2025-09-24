@@ -17,7 +17,7 @@
         <resume_condition/>
         <retroactive>false</retroactive>
         <retroactive_pause>true</retroactive_pause>
-        <schedule display_value="24 x 7">38fa64edc0a8016400f4a5724b0434b8</schedule>
+        <schedule display_value="Workday 8:00 - 5:00">38f8b6d2c0a801640075da0e39d47696</schedule>
         <schedule_source>sla_definition</schedule_source>
         <schedule_source_field/>
         <set_start_to/>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>95c2edef8388b2108bbdb2b6feaad3f4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>OLA for Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
@@ -41,7 +41,7 @@
         <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
         <sys_update_name>contract_sla_95c2edef8388b2108bbdb2b6feaad3f4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 21:14:38</sys_updated_on>
+        <sys_updated_on>2025-09-24 16:50:22</sys_updated_on>
         <target>resolution</target>
         <timezone/>
         <timezone_source>task.caller_id.time_zone</timezone_source>

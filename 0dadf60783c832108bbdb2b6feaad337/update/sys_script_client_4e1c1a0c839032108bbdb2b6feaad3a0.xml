@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Regex to validate date</description>
+        <field>date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var parts = newValue.split('/');
+
+    if (parts.length !== 3) {
+        g_form.clearValue('date');
+        g_form.addErrorMessage('Please enter a valid date in DD/MM/YYYY format.');
+        return;
+    }
+
+    var day = parseInt(parts[0], 10);
+    var month = parseInt(parts[1], 10) - 1; 
+    var year = parseInt(parts[2], 10);
+
+    if (isNaN(day) || isNaN(month) || isNaN(year)) {
+        g_form.clearValue('date');
+        g_form.addErrorMessage('Please enter a valid date in DD/MM/YYYY format.');
+        return;
+    }
+
+    var selectedDate = new Date(year, month, day);
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+    selectedDate.setHours(0, 0, 0, 0);
+
+    if (isNaN(selectedDate.getTime()) || selectedDate > today) {
+        g_form.clearValue('date');
+        g_form.addErrorMessage('Please select a valid date (cannot be in the future).');
+    } else {
+        g_form.clearMessages();
+    }
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 14:45:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e1c1a0c839032108bbdb2b6feaad3a0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Validate Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
+        <sys_update_name>sys_script_client_4e1c1a0c839032108bbdb2b6feaad3a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 15:12:04</sys_updated_on>
+        <table>x_752538_reimbur_0_reimbursement</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

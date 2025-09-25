@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>dolar_amount</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Rounded Dolar</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var rounded = parseFloat(parseFloat(newValue).toFixed(2));
+
+    g_form.setValue('dolar_amount', rounded);
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 15:42:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1c29e2cc83d032108bbdb2b6feaad3d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Rounded Dolar</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
+        <sys_update_name>sys_script_client_1c29e2cc83d032108bbdb2b6feaad3d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 15:45:37</sys_updated_on>
+        <table>x_752538_reimbur_0_reimbursement</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>sys_script_client_1c29e2cc83d032108bbdb2b6feaad3d3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;dolar_amount&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Rounded Dolar&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var rounded = parseFloat(parseFloat(newValue).toFixed(2));
+
+    g_form.setValue('dolar_amount', rounded);
+	
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-25 15:42:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1c29e2cc83d032108bbdb2b6feaad3d3&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Rounded Dolar&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Reimbursement" source="x_752538_reimbur_0"&gt;0dadf60783c832108bbdb2b6feaad337&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Reimbursement"&gt;0dadf60783c832108bbdb2b6feaad337&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_1c29e2cc83d032108bbdb2b6feaad3d3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-25 15:45:37&lt;/sys_updated_on&gt;&lt;table&gt;x_752538_reimbur_0_reimbursement&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1100563842</payload_hash>
+        <record_name>Rounded Dolar</record_name>
+        <reverted_from/>
+        <source>92ed0c5b834072108bbdb2b6feaad38d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 15:45:37</sys_created_on>
+        <sys_id>646bee40831432108bbdb2b6feaad381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199818d2e7a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 15:45:37</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>e46bee409e1432103e3734bb44d13580</update_guid>
+        <update_guid_history>e46bee409e1432103e3734bb44d13580:-1100563842,8a9a22cc2bd03210ea8c63cb2eee0187:-173896064</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 15:49:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3d5e4205fdf34fd0a280ff55298b2840</sys_id>
+        <sys_metadata>1c29e2cc83d032108bbdb2b6feaad3d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rounded Dolar</sys_name>
+        <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
+        <sys_parent display_value="Reimbursement">f96f3a8783c832108bbdb2b6feaad380</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
+        <sys_scope_delete display_value="">53b99bb0db014330bf0a4261a8ae9e90</sys_scope_delete>
+        <sys_update_name>sys_script_client_1c29e2cc83d032108bbdb2b6feaad3d3</sys_update_name>
+        <sys_update_version display_value="sys_script_client_1c29e2cc83d032108bbdb2b6feaad3d3">646bee40831432108bbdb2b6feaad381</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 15:49:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

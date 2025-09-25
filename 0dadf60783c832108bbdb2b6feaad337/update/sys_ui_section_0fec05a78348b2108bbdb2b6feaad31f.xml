@@ -1,21 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="New section 1" section_id="0fec05a78348b2108bbdb2b6feaad31f" sys_domain="global" table="x_752538_reimbur_0_reimbursement" version="3" view="">
+    <sys_ui_section caption="Reimberssement" section_id="0fec05a78348b2108bbdb2b6feaad31f" sys_domain="global" table="x_752538_reimbur_0_reimbursement" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-24 19:33:29</sys_created_on>
-            <sys_id>e8f5d633838036108bbdb2b6feaad3b0</sys_id>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>f3336f88831832108bbdb2b6feaad3cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">b85c89278348b2108bbdb2b6feaad363</sys_ui_formatter>
-            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-24 19:33:29</sys_updated_on>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>ff336f88831832108bbdb2b6feaad3cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>f7336f88831832108bbdb2b6feaad3d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>ff336f88831832108bbdb2b6feaad3d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>f7336f88831832108bbdb2b6feaad3d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>ff336f88831832108bbdb2b6feaad3d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>f7336f88831832108bbdb2b6feaad3d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>ff336f88831832108bbdb2b6feaad3d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>f7336f88831832108bbdb2b6feaad3d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>ff336f88831832108bbdb2b6feaad3d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>receipt</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>f7336f88831832108bbdb2b6feaad3d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>ff336f88831832108bbdb2b6feaad3d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dollar_amount</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>f7336f88831832108bbdb2b6feaad3d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>ff336f88831832108bbdb2b6feaad3d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reproval_reason</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>f7336f88831832108bbdb2b6feaad3d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>ff336f88831832108bbdb2b6feaad3d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>integration_state</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>f7336f88831832108bbdb2b6feaad3d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>ff336f88831832108bbdb2b6feaad3d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>integration_error_message</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:49:41</sys_created_on>
+            <sys_id>f7336f88831832108bbdb2b6feaad3d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reimberssement" display_value="Reimberssement" name="x_752538_reimbur_0_reimbursement" sys_domain="global" view="Default view">0fec05a78348b2108bbdb2b6feaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:49:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>New section 1</caption>
+            <caption>Reimberssement</caption>
             <header>false</header>
             <name>x_752538_reimbur_0_reimbursement</name>
             <roles/>
@@ -25,7 +277,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0fec05a78348b2108bbdb2b6feaad31f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>x_752538_reimbur_0_reimbursement</sys_name>
             <sys_overrides/>
             <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
@@ -33,7 +285,7 @@
             <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
             <sys_update_name>sys_ui_section_0fec05a78348b2108bbdb2b6feaad31f</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:35:57</sys_updated_on>
+            <sys_updated_on>2025-09-25 19:47:46</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

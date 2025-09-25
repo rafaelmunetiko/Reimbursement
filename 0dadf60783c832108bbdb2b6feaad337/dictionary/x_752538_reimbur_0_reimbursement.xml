@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f96f3a8783c832108bbdb2b6feaad380" extends="task" label="Reimbursement" max_length="40" name="x_752538_reimbur_0_reimbursement" type="collection">
+        <element label="Dollar Amount" max_length="10" name="dollar_amount" type="string"/>
         <element label="Amount" max_length="10" name="amount" type="string"/>
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
+        <element choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integrating" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Starting" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="2" value="4"/>
+                <element inactive_on_update="false" label="Integration Success" sequence="3" value="3"/>
+            </choice>
+        </element>
         <element label="Dolar amount" max_length="40" name="dolar_amount" type="string"/>
         <element label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="Receipt" max_length="40" name="receipt" type="user_image"/>

@@ -2,27 +2,27 @@
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <cleared>false</cleared>
         <disabled>ignore</disabled>
-        <field>dollar_amount</field>
+        <field>integration_error_message</field>
         <field_message/>
         <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-25 15:18:47</sys_created_on>
-        <sys_id>35356a4883d032108bbdb2b6feaad3c5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>dollar_amount</sys_name>
+        <sys_created_on>2025-09-25 19:51:53</sys_created_on>
+        <sys_id>79b36bc8831832108bbdb2b6feaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>integration_error_message</sys_name>
         <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
-        <sys_update_name>sys_ui_policy_action_35356a4883d032108bbdb2b6feaad3c5</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_79b36bc8831832108bbdb2b6feaad3b9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-25 19:50:46</sys_updated_on>
+        <sys_updated_on>2025-09-25 19:51:53</sys_updated_on>
         <table>x_752538_reimbur_0_reimbursement</table>
-        <ui_policy display_value="Dollar field">a715e64883d032108bbdb2b6feaad310</ui_policy>
+        <ui_policy display_value="Integration Error Message Field">2293a7c8831832108bbdb2b6feaad3bc</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>true</visible>
     </sys_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=35356a4883d032108bbdb2b6feaad3c5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=79b36bc8831832108bbdb2b6feaad3b9"/>
 </record_update>

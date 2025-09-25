@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="integration_error_message" label="Integration Error Message" language="en" table="x_752538_reimbur_0_reimbursement">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>integration_error_message</element>
+            <help/>
+            <hint/>
+            <label>Integration Error Message</label>
+            <language>en</language>
+            <name>x_752538_reimbur_0_reimbursement</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:22:07</sys_created_on>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>Integration Error Message</sys_name>
+            <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
+            <sys_update_name>sys_documentation_x_752538_reimbur_0_reimbursement_integration_error_message_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:45:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

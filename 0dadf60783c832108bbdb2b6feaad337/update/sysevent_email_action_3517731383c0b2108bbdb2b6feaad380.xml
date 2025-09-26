@@ -5,7 +5,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <category display_value="Reimbursement" name="Reimbursement">682b135483d872108bbdb2b6feaad3c1</category>
         <collection>x_752538_reimbur_0_reimbursement</collection>
         <condition/>
         <content_type>text/html</content_type>
@@ -42,7 +42,7 @@
 <ul>
 <li><strong>Request Number:</strong> ${number}</li>
 <li><strong>Status:</strong> ${state}</li>
-<li><strong>Amount:</strong> ${amount}</li>
+<li><strong>Amount:</strong> R$ ${amount}</li>
 <li><strong>Dollar Amount:</strong> US$ ${dollar_amount}</li>
 <li><strong>Category:</strong> ${category}</li>
 <li><strong>Description:</strong> ${description}</li>
@@ -70,7 +70,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3517731383c0b2108bbdb2b6feaad380</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Reimbursement Paid</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
@@ -78,7 +78,7 @@
         <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
         <sys_update_name>sysevent_email_action_3517731383c0b2108bbdb2b6feaad380</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-25 19:30:05</sys_updated_on>
+        <sys_updated_on>2025-09-26 14:23:54</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

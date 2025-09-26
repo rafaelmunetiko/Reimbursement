@@ -5,8 +5,8 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
-        <collection>x_752538_reimbur_0_reimbursement</collection>
+        <category display_value="Reimbursement" name="Reimbursement">682b135483d872108bbdb2b6feaad3c1</category>
+        <collection>incident</collection>
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
@@ -39,7 +39,7 @@
         <message_html><![CDATA[<p data-end="166" data-start="114">The requisition ${number} failed to integrate.</p>
 <p data-end="218" data-start="168">Error details: ${integration_error_message}.</p>
 <p data-end="295" data-start="220">Please check the API documentation for more information about this error.</p>
-<p><span data-teams="true"><a title="click here." href="/now/nav/ui/classic/params/target/x_752538_reimbur_0_reimbursement.do?sys_id=${sys_id}">click here.</a></span></p>]]></message_html>
+<p><span data-teams="true"><a title="click here." href="/now/nav/ui/classic/params/target/incident.do?sys_id=${sys_id}">click here.</a></span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Integration Failure</name>
@@ -61,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>21de9f04831832108bbdb2b6feaad366</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Integration Failure</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursement" source="x_752538_reimbur_0">0dadf60783c832108bbdb2b6feaad337</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="Reimbursement">0dadf60783c832108bbdb2b6feaad337</sys_scope>
         <sys_update_name>sysevent_email_action_21de9f04831832108bbdb2b6feaad366</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-25 19:40:06</sys_updated_on>
+        <sys_updated_on>2025-09-26 14:07:32</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
